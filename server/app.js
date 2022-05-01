@@ -34,7 +34,7 @@ app.get('/', function (req, res) {
 })
 
 app.get('/api/todos', function (req, res) {
-   res.json().render()
+   res.render('index')
 })
 
 app.listen(port, function () {
