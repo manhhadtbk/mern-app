@@ -33,10 +33,13 @@ app.get('/', function (req, res) {
 
 })
 
+app.get('/api/todos', function (req, res) {
+   getTodos(res)
+})
+
 app.listen(port, function () {
    console.log('App listening on port: ' + port);
 })
 
 // changed 1
-// changed 2
-// changed 3
+// changed 2 
