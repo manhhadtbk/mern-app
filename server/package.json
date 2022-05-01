@@ -4,6 +4,7 @@
   "description": "Single Page Todo App",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -16,6 +17,7 @@
     "ejs": "^3.1.7",
     "express": "^4.17.3",
     "mongoose": "^6.3.1",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.16"
   }
 }
